@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="btn">
+        <button><a href="">Instagram</a><img src="./img/instagram.svg" alt="hih"></button>
+        <button><a href="">Behance </a><img src="./img/bh.svg" alt="hih"></button>
+        <button><a href="">Visit my portfolio</a><img src="./img/Programming Hold Laptop--Streamline-Ultimate.svg" alt="hih"></button>
+        <button><a href="">LinkedIn</a><img src="./img/linkedin.svg" alt="hih"></button>
+    </div>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.48/build/spline-viewer.js"></script>
+<spline-viewer url="https://prod.spline.design/OWwPOwKvymUWuKBi/scene.splinecode"></spline-viewer>
+<script>
+    window.onload = function() {
+        var shadowRoot = document.querySelector('spline-viewer').shadowRoot;
+        shadowRoot.querySelector('#logo').remove();
+    }
+</script>
+</body>
+</html>
